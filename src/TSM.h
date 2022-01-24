@@ -6,8 +6,8 @@
 struct TSMData {
   float windSpeed3D;
   float windSpeed2D;
-  int windDirHor;
-  int windDirVer;
+  int16_t windDirHor;
+  int16_t windDirVer;
   float sonicTemp;
   float humidity;
   float pressure;
